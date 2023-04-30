@@ -1126,5 +1126,63 @@
 /* FOOTER */
 
 .footer {
-    
+    padding-top: 16px;
+    border-top: 4px solid var(--primary-color);
+}
+
+.footer__heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-item i {
+    font-size: 1.6rem;
+    margin: -1px 8px 0 0;
+}
+
+.footer-item__link {
+    display: flex;
+    text-decoration: none;
+    color: #666;
+    font-size: 1.2rem;
+    padding: 6px 0;
+    align-items: center;
+}
+
+.footer-item__link:hover {
+    color: var(--primary-color);
+}
+
+.footer__download {
+    display: flex;
+}
+
+.footer__download-qr {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(0,0,0,0.08);
+}
+
+.footer__download-app {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__download-app-link {
+    text-decoration: none;
+}
+
+.footer__download-app-img {
+    height: 25px;
+    object-fit: contain;
 }
